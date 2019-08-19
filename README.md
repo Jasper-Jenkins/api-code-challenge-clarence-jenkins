@@ -51,3 +51,18 @@ about the project architecture / layout that you think we should know.
 * Include working unit tests
 * Please note, when the interview process has concluded you will be removed from the github team, which will also delete your fork of our private repo.
 * Please send an email to the recruiter and/or hiring manager you have been working with to notify them you have completed the challenge.
+
+
+##To use
+*Maven and Java must be installed on computer
+    -Maven: https://maven.apache.org/download.cgi
+    -Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
+*Easy install, adding both to PATH in environment variables is necessary.
+*Go to main folder of project on the command line and run "mvn spring-boot:run"
+*Open webrowser and go to localhost:8080/?id=<id>
+
+##DISCLAIMER 
+*Made progress, having trouble figuring out how to dig into the child elements without knowing exactly how far the children go.
+*Loads Json file once
+*Shows root and child elements of root at ?id=root
+
