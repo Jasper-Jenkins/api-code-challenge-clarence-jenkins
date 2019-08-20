@@ -54,15 +54,13 @@ about the project architecture / layout that you think we should know.
 
 
 ##To use
-*Maven and Java must be installed on computer
-    -Maven: https://maven.apache.org/download.cgi
-    -Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
-*Easy install, adding both to PATH in environment variables is necessary.
-*Go to main folder of project on the command line and run "mvn spring-boot:run"
-*Open webrowser and go to localhost:8080/?id=<id>
+*   Maven and Java must be installed on computer
+    -   Maven: https://maven.apache.org/download.cgi
+    -   Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
+*   Easy install, adding both to PATH in environment variables.
+*   Go to folder api-code-challenge-clarence-jenkins on the command line and run "mvn spring-boot:run"
+*   Open webrowser and go to "localhost:8080/?id= " and add an id of your choice
+*   Ctrl + c to stop shut down the springboot executor
 
 ##DISCLAIMER 
-*Made progress, having trouble figuring out how to dig into the child elements without knowing exactly how far the children go.
-*Loads Json file once
-*Shows root and child elements of root at ?id=root
-
+*   Trying to figure out the 404. If you put anything that is not a valid "id" it always shows the root and its child elements. 

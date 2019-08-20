@@ -1,9 +1,8 @@
 package com.challenge.spring;
 
 import org.json.simple.JSONObject;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class NavigationController {
@@ -12,9 +11,6 @@ public class NavigationController {
     @RequestMapping
     public JSONObject jsonObject(@RequestParam(value = "id", defaultValue = "root") String id) {
         JSONObject newNavObj = new JSONObject();
-        //JSONObject navObj = nav.getNavigation();
-       // String userInput = id;
-        System.out.println("Displaying what the user inputs: " + id);
         newNavObj = nav.searchNavigation(id);
         return newNavObj;
     }

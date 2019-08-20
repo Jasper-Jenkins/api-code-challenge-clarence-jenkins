@@ -1,0 +1,64 @@
+{
+  "children": [
+    {
+      "children": [],
+      "name": "Store",
+      "id": "store",
+      "url": "http://www.bodybuilding.com/store/"
+    },
+    {
+      "children": [],
+      "name": "Training",
+      "id": "Training_Main",
+      "url": "http://www.bodybuilding.com/fun/training.html"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "name": "Calves",
+                  "id": "Calves",
+                  "url": "http://www.bodybuilding.com/fun/bbinfo.php?page=Calves"
+                }
+              ],
+              "name": "Muscle Groups",
+              "id": "single-muscle-group-training",
+              "url": "http://www.bodybuilding.com/fun/workout/muscle-groups.html"
+            }
+          ],
+          "name": "Workouts",
+          "id": "Training",
+          "url": "http://www.bodybuilding.com/fun/bbmaintrain.htm"
+        }
+      ],
+      "name": "Articles & Videos",
+      "id": "articles-training",
+      "url": "http://www.bodybuilding.com/fun/features.html"
+    },
+    {
+      "children": [],
+      "name": "Community",
+      "id": "bodyspace",
+      "url": "http://bodyspace.bodybuilding.com/"
+    },
+    {
+      "children": [],
+      "name": "Member Profile",
+      "id": "member-overview",
+      "url": "http://bodyspace.bodybuilding.com/[slug]"
+    },
+    {
+      "children": [],
+      "name": "Dashboard",
+      "id": "My Home",
+      "url": "http://my.bodybuilding.com/community/my-bodyspace/"
+    }
+  ],
+  "name": "Home",
+  "id": "root",
+  "url": "http://www.bodybuilding.com"
+}
