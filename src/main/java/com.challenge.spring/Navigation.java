@@ -36,6 +36,7 @@ public class Navigation {
         catch(ParseException e){e.printStackTrace();}
 
         navigation = navigationObject;
+        System.out.println("Json file was loaded");
     }
 
     public static JSONObject searchNavigation(String navigationId){
@@ -179,7 +180,6 @@ public class Navigation {
     public Navigation (){
         setFound(false);
         setNavigation("./src/main/resources/navigation.json");
-        System.out.println("Json file was loaded");
     }
 
 }
